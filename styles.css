@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar Styling */
+.container {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    background-color: black;
+    padding: 15px;
+}
+
+h1 {
+    color: white;
+    margin: 5px 0 5px 50px;
+    width: 150px;
+    font-weight: 400;
+}
+
+.container ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+/* Main Section Styling */
+.main-section {
+    display: flex;
+    background-image: url(./images/theater-image-background.png);
+    background-size: cover;
+}
+
+h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-size: 100px;
+    font-weight: 400;
+}
+
+/* Second Section Styling */
+.second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-container {
+    margin-top: 5em;
+}
+
+.section-container>p {
+    border: 1px solid gray;
+    background-color: rgb(236, 236, 236);
+    padding: 5px 0 5px 40px;
+}
+
+.shows {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px 10px;
+    gap: 40px
+}
+
+.show-img img {
+    width: 12em;
+}
+
+.show-info p {
+    line-height: 3em;
+}
+
+.show-info p:nth-of-type(1) {
+    font-size: 20px;
+}
+
+.show-info p:nth-of-type(2), 
+.show-info p:nth-of-type(3), 
+.show-info p:nth-of-type(4) {
+    font-size: 12px;
+}
+
+.show-btn {
+    margin-left: 80px;
+}
+
+.show-btn button {
+    background-color: rgb(255, 196, 0);
+    color: white;
+    padding: 10px 10px;
+    border: 1px solid lightgray;
+}
+
+.show-btn button:hover {
+    cursor: pointer;
+}
+
+/* Footer Styling */
+.footer-container {
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 80px;
+}
+
+.footer-section p {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.footer-section li {
+    margin-bottom: 40px;
+    font-size: 12px;
+}
+
+.info i {
+    font-size: 20px;
+    color: rgb(160, 91, 2);
+    margin-right: 20px;
+}
